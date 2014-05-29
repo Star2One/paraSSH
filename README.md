@@ -65,7 +65,7 @@ python clusterCMD.py --command='date' --auth=keyfile
 
 
 ###clusterDeliver使用方法
-使用clusterDeliver.py可以远程传输文件
+* 使用clusterDeliver.py可以远程传输文件
 
 需要注意有两种认证方式可选：
 
