@@ -1,12 +1,14 @@
 paraSSH
 =======
 Author: chris.hill
+
 Email: im.weittor#gmail.com
+
 Date: 20140528
 
 
 ##简介
-clusterCMD.py    ---    远程执行用户命令
+clusterCMD.py    ---    远程执行用户命令      
 clusterDeliver.py   --- 远程传输文件
 
 
@@ -42,6 +44,7 @@ python fdping.py
 * 使用clusterCMD.py脚本可对配置文件内的服务器执行远程操作。
 
 需要注意有三种认证方式可选：
+
 a. 需要填写用户名和密码，默认为该方式。若不设置，则默认采用该方式认证。需要正确配置config.ini配置文件内的用户名跟密码选项。    
 b. pkey认证，私钥认证。需要提供私钥文件。   
 c. keyfile认证，包含私钥信息认证文件。   
